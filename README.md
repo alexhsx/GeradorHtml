@@ -7,3 +7,6 @@ E que a chamada `negrito(italico(span(“meu texto estiloso!”))).toHTML()` nos
 Considere que atributos em HTML possuem sempre o conteúdo em formato String. Por exemplo:
 `negrito(italico(span(“meu texto estiloso!”).addAttribute(“class”, “banana”))).toHTML()` nos retorne a String:
 `<b><i><span class=”banana”>meu texto estiloso!</span></i></b>`
+
+
+Tag: Design patterns | Decorator
